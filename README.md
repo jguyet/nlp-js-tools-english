@@ -3,7 +3,7 @@
 
 Inspired by the french similar lib.
 
-This package is partly based on the [Snowball stemming algorythm](https://snowballstem.org/algorithms/french/stemmer.html) and the [javascript adaptation](http://snowball.tartarus.org/otherlangs/french_javascript.txt) by _Kasun Gajasinghe, University of Moratuwa_
+This package is partly based on the [Snowball stemming algorythm](https://snowballstem.org/algorithms/french/stemmer.html) and the [javascript adaptation](http://snowball.tartarus.org/otherlangs/french_javascript.txt) by _Kasun Gajasinghe, University of Moratuwa_ 
 
 This package offers 4 NLP tools in javascript for french language :
 * Tokenizing
