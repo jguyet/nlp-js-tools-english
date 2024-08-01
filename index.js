@@ -54,4 +54,13 @@ function NlpjsTEn(sentence, userConfig) {
         return stemmedWord;
     };
 
+    this.isEnglish = function() {
+        return this.foundTokensInDicts.reduce((acc, word, _, arr) => {
+            if (word.pos === 'UNK' || word.pos === 'CODE') {
+                return acc;
+            }
+            return acc + (1 / arr.length);
+        }, 0);
+    }
+
 }

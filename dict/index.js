@@ -4,6 +4,8 @@ var nbr = require('./nbr');
 var vir = require('./vir');
 var vre = require('./vre');
 var common = require('./common');
+var code = require('./code');
+var num = require('./number-words');
 
 module.exports = {
     all: {
@@ -11,6 +13,8 @@ module.exports = {
         nbr,
         vir,
         vre,
-        common
+        common,
+        code,
+        num
     }
 }
