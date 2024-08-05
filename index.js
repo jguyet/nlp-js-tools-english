@@ -55,6 +55,9 @@ function NlpjsTEn(sentence, userConfig) {
     };
 
     this.isEnglish = function() {
+        if (this.foundTokensInDicts === null) {
+            return 0;
+        }
         return this.foundTokensInDicts.reduce((acc, word, _, arr) => {
             if (word.pos === 'UNK' || word.pos === 'CODE') {
                 return acc;
