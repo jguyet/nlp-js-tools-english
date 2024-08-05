@@ -1,6 +1,6 @@
 {
   "name": "nlp-js-tools-english",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "POS Tagger and lemmatizer for javascript",
   "main": "index.js",
   "scripts": {
